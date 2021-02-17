@@ -7,7 +7,7 @@ module.exports.run = async (client, message, args) => {
     try{
       
 var botEmbed = new discord.MessageEmbed()
-    .setTitle(`_***GameNight Commands***_`)
+    .setTitle(`_***Skyblock Commands***_`)
     .setDescription(`Ping is ${Date.now() - message.createdTimestamp}ms.`)
     .setColor("#001366")
     .addField('**Server Commands**', [
