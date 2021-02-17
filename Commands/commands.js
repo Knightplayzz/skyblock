@@ -14,14 +14,10 @@ var botEmbed = new discord.MessageEmbed()
         `**!commands** | Shows all commands.`,
         `**!howcommand** | Shows how to do a command.`,
         `**!serverinfo** | Information of the server.`,
-        `**!hello** | Says hello back.`,
         `**!ping** | Shows the ping of the bot.`,
-        `**!update** |  See all information about the updates.`,
-        `**!invite** | Invite **Night-bot!**.`,
         `**!tinfo** | See all ticket commands.`,
         `**!music** | See all music commands.`,
         `**!review** | Makes a review.`,
-        `**!rps** | Rock paper scissors.`,
         `**!members** | Show all members.`,
         
         '\u200b'
@@ -32,10 +28,8 @@ var botEmbed = new discord.MessageEmbed()
         `**!tempmute** | Mutes a player for given minutes.`,
         `**!clear** | Deletes the given amount of messages at a time.`,
         `**!announce** | Makes a announcement.`,
-        `**!amongus** | Shows the code of the match.`,
         `**!addrole** | Adds a role to a player.`,
         `**!removerole** | Removes the role of a player.`,
-        `**!giveaway** | Gives something away.`,
         `**!warn** | Warns a player.`,
 
         `\u200b`

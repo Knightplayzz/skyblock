@@ -14,14 +14,9 @@ var botEmbed = new discord.MessageEmbed()
         `**!commands** | !commands <check dm>.`,
         `**!howcommand** | !howcommand <check dm>.`,
         `**!serverinfo** | !serverinfo.`,
-        `**!hello** | !hello.`,
         `**!ping** | !ping.`,
-        `**!update** | !update.`,
-        `**!invite** | !invite **Night-bot**.`,
         `**!tinfo** | !tinfo.`,
         `**!music** | !music.`,
-        `**!rps** | !rps.`,
-        `**!review** | !review <number 1-5> <message>.`,
 
         '\u200b'
     ])
@@ -31,10 +26,8 @@ var botEmbed = new discord.MessageEmbed()
         `**!tempmute** | !tempmute <@player> <seconds x 1000>`,
         `**!clear** | !clear <amount> (**NOT 99+**).`,
         `**!announce** |!announce <title> | <message> | <collor> | <channel>.`,
-        `**!amongus** | !amongus <code>.`,
         `**!addrole** | !addrole <@player> <role.id>.`,
         `**!removerole** | !removerole <@player> <role.id>.`,
-        `**!giveaway** | !giveaway <amount winners> <seconds> <message>`,
         `**!warn** | !warn <@player> <reason>.`,
 
         `\u200b`
