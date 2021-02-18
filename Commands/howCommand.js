@@ -17,6 +17,7 @@ var botEmbed = new discord.MessageEmbed()
         `**!ping** | !ping.`,
         `**!tinfo** | !tinfo.`,
         `**!music** | !music.`,
+        `**!fasttavel** | !fasttravel.`,
 
         '\u200b'
     ])
@@ -29,6 +30,7 @@ var botEmbed = new discord.MessageEmbed()
         `**!addrole** | !addrole <@player> <role.id>.`,
         `**!removerole** | !removerole <@player> <role.id>.`,
         `**!warn** | !warn <@player> <reason>.`,
+        `**!info** | !info.`,
 
         `\u200b`
 
@@ -59,5 +61,5 @@ var botEmbed = new discord.MessageEmbed()
   
   module.exports.help = {
     name: "howcommand",
-    aliases: []
+    aliases: ["hcommands", "howcommands"]
 }

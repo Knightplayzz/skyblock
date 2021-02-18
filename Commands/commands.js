@@ -19,6 +19,7 @@ var botEmbed = new discord.MessageEmbed()
         `**!music** | See all music commands.`,
         `**!review** | Makes a review.`,
         `**!members** | Show all members.`,
+        `**!fasttravel** | Shows the command for fast travel.`,
         
         '\u200b'
     ])
@@ -31,6 +32,7 @@ var botEmbed = new discord.MessageEmbed()
         `**!addrole** | Adds a role to a player.`,
         `**!removerole** | Removes the role of a player.`,
         `**!warn** | Warns a player.`,
+        `**!info** | Sends a info message.`,
 
         `\u200b`
 
@@ -63,6 +65,6 @@ var botEmbed = new discord.MessageEmbed()
   
   module.exports.help = {
     name: "commands",
-    aliases: ["cmds", "cmd"]
+    aliases: ["cmds", "cmd", "command"]
 }
 
