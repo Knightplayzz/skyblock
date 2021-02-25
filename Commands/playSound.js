@@ -7,7 +7,6 @@ module.exports.run = async (client, message, args, options) => {
 
     // if(message.guild.me.voice.channel) return message.channel.send("Bot is already in the voice channel.");
 
-    if(!args[0]) return message.reply("Give url.");
 
     var validate = "https://www.youtube.com/watch?v=ZdfHc0b7htY"
     if(!validate) return message.channel.send("Geef een juist url op");
